@@ -22,7 +22,7 @@ The data scraped needed to be cleaned up, so that it was usable for our model.
 The following changes was made:
 > - Remove undesired columns
 > - Check for null values(missing data) and drop them because we cannot assume zip code and location
-> - Uppercase all the values of the categorical columns to have correct numbers of unique value
+> - Uppercase all the values of the categorical columns to avoid the inconsistency of values
 > - Change datatype for incident_datetime, hour_of_day, and zip
 
 ## 3) Exploratory Data Analysis
